@@ -41,4 +41,4 @@ import { v2 as cloudinary } from 'cloudinary';
     console.log(autoCropUrl);    
 })();
 // Initialize cloudinary
-export const app = initializeApp(cloudinaryConfig);
+export const app = initializeApp(firebaseConfig);
